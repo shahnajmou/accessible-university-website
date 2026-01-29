@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo University | Programs</title>
+
+
+  <!-- SEO -->
+  <meta name="description" content="Demo university site showcasing accessible, responsive web content." />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Demo University Home">Demo University</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+  <section aria-labelledby="programs-heading">
+  <h1 id="programs-heading">Programs</h1>
+  <input
+  type="search"
+  placeholder="Search programs"
+  aria-label="Search programs"
+  class="program-search"
+/>
+
+
+  <p>Explore programs offered by Demo University.</p>
+
+  <div class="grid">
+    <article class="card program-card">
+      <a href="#">
+      <h2>💻 Computer Science</h2>
+      <p>Software, AI, data, and systems.</p>
+      </a>
+      <p class="news-tag">Website Updates</p>
+
+    </article>
+
+    <article class="card program-card">
+      <a href="#">
+      <h2>⚙️ Engineering</h2>
+      <p>Hands-on, lab-focused STEM education.</p>
+      </a>
+      <p class="news-tag">Website Updates</p>
+    </article>
+
+    <article class="card program-card">
+  <a href="#">
+
+      <h2>🔐 Cybersecurity</h2>
+      <p>Secure systems, networks, and risk management.</p>
+      </a>
+    </article>
+
+  </div>
+</main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Demo University</p>
+      <nav aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="news.html">News</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
